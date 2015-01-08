@@ -20,7 +20,7 @@ set title
 " Display command which you typing and other command related stuff
 set showcmd
 " Highlight line with cursor
-set cursorline
+"set cursorline
 " Ignore case in search patterns
 set ignorecase
 " Override the 'ignorecase' option if the search patter ncontains upper case
@@ -59,6 +59,11 @@ let g:airline_theme='powerlineish'
 " Display only filename in tab
 
 filetype plugin indent on
+
+
+if &diff
+    colorscheme pablo
+endif
 
 " Plugins confing
 nmap <C-N>o :NERDTree<cr>
