@@ -30,7 +30,8 @@ set showmatch
 set nobackup
 " Disable swp files
 set noswapfile
-
+" Mute error bells
+set noerrorbells visualbell t_vb=
 
 """ Vundle configuration
 
@@ -62,6 +63,10 @@ let g:airline_theme='powerlineish'
 
 filetype plugin indent on
 
+
+""" NERDTree configuration
+
+let NERDTreeShowHidden=1
 
 """ Colorscheme
 
