@@ -52,6 +52,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'evanmiller/nginx-vim-syntax'
+Plugin 'msanders/snipmate.vim'
 call vundle#end()
 
 
@@ -80,15 +81,15 @@ endif
 " Change Leader key
 let mapleader = ","
 " Switch to last buffer
-nmap <Leader>p <C-^>
+nmap <Leader>b <C-^>
 
 
 """ Create shortcuts 
 
 " Enable paste mode
-nmap <Leader>v :set paste<cr>
+nmap <Leader>p :set paste<cr>
 " Disable paste mode
-nmap <Leader>V :set nopaste<cr>
+nmap <Leader>P :set nopaste<cr>
 " Toggle files tree
 nmap <Leader>t :NERDTreeToggle<cr>
 " Open recently used files
