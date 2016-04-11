@@ -43,7 +43,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 """ Plugins
 
 call vundle#begin()
-Plugin 'gmarik/Vundle.vim'
+
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'chase/vim-ansible-yaml'
 Plugin 'kchmck/vim-coffee-script'
@@ -54,14 +55,17 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'evanmiller/nginx-vim-syntax'
 Plugin 'msanders/snipmate.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'terryma/vim-multiple-cursors'
+
 call vundle#end()
 
 
 """ Airline configuration
 
-set laststatus=2
-let g:airline_powerline_fonts=1
-let g:airline_theme='powerlineish'
+" Uncomment following lines if you want use powerlineish fonts.
+" set laststatus=2
+" let g:airline_powerline_fonts=1
+" let g:airline_theme='powerlineish'
 
 filetype plugin indent on
 
