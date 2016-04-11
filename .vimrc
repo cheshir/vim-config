@@ -53,6 +53,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'evanmiller/nginx-vim-syntax'
 Plugin 'msanders/snipmate.vim'
+Plugin 'tpope/vim-surround'
 call vundle#end()
 
 
@@ -111,3 +112,10 @@ nmap <C-l> :CtrlPMRUFiles<cr>
 " <C-w>v - split vertical.
 " <C-w>s - horizontal split.
 " <C-w>[hjkl] - navigation through split spaces.
+"
+" Vim surround plugin:
+" cs<from><to> - change surround ' "
+" ds<from><to> - delete surround ' "
+" dst - delete surround tag
+" cst - change surround tag
+" vmap S - add surround tag
