@@ -54,5 +54,3 @@ This config includes several custom shortcats:
 
 ## Todos
 
-* Remove all plugins except Vundle and add /.vim/bundle/* to .gitignore.
-
