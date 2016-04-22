@@ -105,7 +105,8 @@ nmap <Leader>N :set nonumber<cr>
 nmap <Leader>t :NERDTreeToggle<cr>
 " Open recently opened files.
 nmap <C-l> :CtrlPMRUFiles<cr>
-
+" Run current file 
+nmap <Leader>r :!php %<cr>
 """ Some useful tips in normal mode.
 " 
 " Navigation:
