@@ -1,0 +1,4 @@
+# Ignore all
+*
+# Except vundle
+!Vundle.vim
