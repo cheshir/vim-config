@@ -14,8 +14,8 @@ git clone https://github.com/cheshir/vim-config
 And then replace your .vim and .vimrc:
 ```sh
 cd vim-config
-mv ~/.vim ~/.vim_bac && ln -s `pwd`/.vim ~/.vim
-mv ~/.vimrc ~/.vimrc_bac && ln -s `pwd`/.vimrc ~/.vimrc
+ln -fs `pwd`/.vim ~/.vim
+ln -fs `pwd`/.vimrc ~/.vimrc
 ```
 
 This config uses [Vundle](https://github.com/VundleVim/Vundle.vim) to manage plugins. But don't worry, you already have it. We only need to initialize other plugins only. 
@@ -23,6 +23,11 @@ This config uses [Vundle](https://github.com/VundleVim/Vundle.vim) to manage plu
 Launch `vim` and run: `:PluginInstall`. 
 
 Or you can do it from command shell: `vim +PluginInstall +qall`.
+
+If you want to update vundle use following command:
+```sh
+git subtree pull --prefix=.vim/bundle/Vundle.vim/ https://github.com/VundleVim/Vundle.vim master --squash
+```
 
 ## Included plugins
 
