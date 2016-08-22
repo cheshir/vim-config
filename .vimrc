@@ -55,6 +55,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'evanmiller/nginx-vim-syntax'
 Plugin 'msanders/snipmate.vim'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 
@@ -123,6 +124,8 @@ nmap <Leader>r :!php %<cr>
 " vi<delimiter> - select between delimiter.
 " yi<delimiter> - copy between delimiter.
 " di<delimiter> - remove between delimiter.
+"
+" <C-v>\d<cr><C-n>i#<cr> - comment several lines.
 "
 " Splits: 
 " <C-w>v - split vertical.
